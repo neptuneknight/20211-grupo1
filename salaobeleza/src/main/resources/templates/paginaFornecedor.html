@@ -1,0 +1,110 @@
+<html xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <title> Teste Fornecedor </title>
+    <link rel="stylesheet" type="text/css" th:href="@{/css/fornecedor.css}"/>
+    <link rel="stylesheet" type="text/css" th:href="@{/css/menu.css}"/>
+    <meta charset="utf-8"/>
+</head>
+<body>
+<div id="menu">
+    <a th:href="@{/}">Início</a>
+    <a th:href="@{/estoque}">Estoque</a>
+    <a th:href="@{/fornecedor}">Fornecedores</a>
+    <a th:href="@{/cliente}">Clientes</a>
+    <a th:href="@{/login?logout}">Sair</a>
+</div>
+
+<div id="fornecedor">
+    <table class="dataSearch">
+        <tr>
+            <td>
+                <input type="text" name="searchBar" placeholder="Digite a pesquisa..."/>
+                <button> OK </button>
+            </td>
+        </tr>
+    </table>
+
+    <hr>
+    <br>
+
+    <h1> Fornecedores </h1>
+    <hr>
+    <table class="dataTable" cellspacing="0">
+        <tr class="header">
+            <td> ID </td>
+            <td> Nome </td>
+            <td> CNPJ </td>
+        </tr>
+        <tr>
+            <td> 0 </td>
+            <td> Fornecedor 1 </td>
+            <td> 00.000.000/0001-00 </td>
+        </tr>
+        <tr>
+            <td> 1 </td>
+            <td> Fornecedor 2 </td>
+            <td> 11.111.111/0002-11 </td>
+        </tr>
+        <tr>
+            <td> 2 </td>
+            <td> Fornecedor 3 </td>
+            <td> 22.222.222/0003-22 </td>
+        </tr>
+        <tr>
+            <td> 3 </td>
+            <td> Fornecedor 4 </td>
+            <td> 33.333.333/0004-33 </td>
+        </tr>
+        <tr>
+            <td> 4 </td>
+            <td> Fornecedor 5 </td>
+            <td> 44.444.444/0005-44 </td>
+        </tr>
+        <tr>
+            <td> 5 </td>
+            <td> Fornecedor 6 </td>
+            <td> 55.555.555/0006-55 </td>
+        </tr>
+        <tr>
+            <td> 6 </td>
+            <td> Fornecedor 7 </td>
+            <td> 66.666.666/0007-66 </td>
+        </tr>
+        <tr>
+            <td> 7 </td>
+            <td> Fornecedor 8 </td>
+            <td> 77.777.777/0008-77 </td>
+        </tr>
+        <tr>
+            <td> 8 </td>
+            <td> Fornecedor 9 </td>
+            <td> 88.888.888/0009-88 </td>
+        </tr>
+        <tr>
+            <td> 9 </td>
+            <td> Fornecedor 10 </td>
+            <td> 99.999.999/0001-99 </td>
+        </tr>
+    </table>
+    <hr>
+
+    <p class="dataFilter">
+        Exibindo fornecedores: IDs de 0 a 9
+        <a href="">Próximo</a>
+        <a href="">Anterior</a>
+    </p>
+    <hr>
+    <br>
+
+    <table class="dataControl">
+        <tr>
+            <td>
+                <button> Cadastrar Novo </button>
+                <button> Editar </button>
+                <button> Remover </button>
+            </td>
+        </tr>
+    </table>
+</div>
+</body>
+</html>

@@ -1,0 +1,189 @@
+*
+{
+	font-family: 'arial';
+}
+
+body
+{
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	background-color: #cdb4db;
+	overflow-x: hidden;
+}
+
+#cliente
+{
+	height: 100%;
+	width: 80%;
+	position: relative;
+	background-color: white;
+	left: 50%;
+	top: 56%;
+	transform: translate(-50%, -50%);
+	border: 2px solid #cdb4db;
+	padding: 20px;
+	border-radius: 10px; 
+	background-color: #fcfcfc; 
+
+}
+
+#cliente h1
+{
+	color: black;
+	text-align: center;
+	height: 25px;
+	margin-top: -16px;
+}
+
+#cliente hr
+{
+	margin: 8px -22px 8px -22px;
+	border-color: #cdb4db;
+}
+
+#cliente p.dataFilter a
+{
+	float: right;
+	font-weight: bold;
+	color: #1f001f;
+	border:1px solid #1f001f;
+	border-radius: 3px;
+	margin-left: 5px;
+	padding: 3px;
+	text-decoration: none;
+	margin-bottom: 5px;
+}
+
+#cliente p.dataFilter a:hover {
+
+	background-color: #1f001f;
+	color: white;
+
+}
+
+#cliente p.dataFilter
+{
+	width: 100%;
+	float: right;
+	text-align: left;
+	margin: 4px 0px 4px 0px;
+}
+
+#cliente table
+{
+	width: 100%;
+	height: max-content;
+	color: black;
+}
+
+#cliente table.dataTable
+{
+	width: 80%;
+	margin-left: 10%;
+}
+
+#cliente table tr
+{
+	height: max-content;
+}
+
+#cliente table tr.header
+{
+	font-weight: bold;
+	font-size: 16px;
+}
+
+#cliente table.dataTable tr td
+{
+	width: 33%;
+	padding: 5px;
+	margin: 0;
+	text-align: left;	
+}
+#cliente table.dataTable tr:first-Child td{
+	
+	border-bottom: 2px solid black;
+}
+
+#cliente table.dataTable tr:not(:first-Child) td{
+
+	border-bottom:1px solid gray;
+}
+
+#cliente button
+{
+	background-color: white;
+	width: 200px;
+	height: 50px;
+	color: #1f001f;
+	font-size: 16px;
+	font-weight: bold;
+	cursor: pointer;
+	bottom: 20px;
+	border: solid 1px;
+	border-radius: 5px;
+	transition: 0.2s;
+	outline: none;
+
+
+}
+
+#cliente button:hover {
+	background-color: #1f001f;
+	color: white;
+	border: 1px solid #1f001f;
+
+}
+
+#cliente table.dataControl
+{
+	position: relative;
+	bottom: 10px;
+	margin-top: 5px;
+}
+
+#cliente table.dataSearch
+{
+	text-align: right;
+	height: 40px;
+}
+
+#cliente table.dataSearch tr td
+{
+	text-align: right;
+	width: 100%;
+	padding-bottom: 14px;
+}
+
+#cliente table.dataSearch tr td input
+{
+	height: 100%;
+	border: 1px solid #1f001f;
+	border-radius: 5px;
+	padding: 5px;
+	width: 300px;
+	color: #1f001f;
+
+}
+
+#cliente table.dataSearch tr td input:focus
+{
+	outline: none;
+}
+
+#cliente table.dataSearch tr td button
+{
+	text-align: right;
+	height: 100%;
+	padding: 10px;
+	width: min-content;
+}
+
+#cliente table.dataControl tr td
+{
+	text-align: center;
+	width: 100%;
+	padding-right: 38px;
+}

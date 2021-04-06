@@ -1,0 +1,187 @@
+*
+{
+	font-family: 'arial';
+}
+
+body
+{
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	background-color: #cdb4db;
+}
+
+#fornecedor
+{
+	height: 100%;
+	width: 80%;
+	position: relative;
+	background-color: white;
+	left: 50%;
+	top: 56%;
+	transform: translate(-50%, -50%);
+	border: 2px solid #cdb4db;
+	padding: 20px;
+	border-radius: 10px; 
+	background-color: #fcfcfc; 
+}
+
+#fornecedor h1
+{
+	color: black;
+	text-align: center;
+	height: 25px;
+	margin-top: -16px;
+}
+
+#fornecedor hr
+{
+	margin: 8px -22px 8px -22px;
+	border-color: #cdb4db;
+}
+
+#fornecedor p.dataFilter a
+{
+	float: right;
+	font-weight: bold;
+	color: #1f001f;
+	border:1px solid #1f001f;
+	border-radius: 3px;
+	margin-left: 5px;
+	padding: 3px;
+	text-decoration: none;
+	margin-bottom: 5px;
+}
+
+#fornecedor p.dataFilter a:hover {
+
+	background-color: #1f001f;
+	color: white;
+
+}
+
+#fornecedor p.dataFilter
+{
+	width: 100%;
+	float: right;
+	text-align: left;
+	margin: 4px 0px 4px 0px;
+}
+
+#fornecedor table
+{
+	width: 100%;
+	height: max-content;
+	color: black;
+}
+
+#fornecedor table.dataTable
+{
+	width: 80%;
+	margin-left: 10%;
+}
+
+#fornecedor table tr
+{
+	height: max-content;
+}
+
+#fornecedor table tr.header
+{
+	font-weight: bold;
+	font-size: 16px;
+}
+
+#fornecedor table.dataTable tr td
+{
+	width: 33%;
+	padding: 5px;
+	margin: 0;
+	text-align: left;	
+}
+#fornecedor table.dataTable tr:first-Child td{
+	
+	border-bottom: 2px solid black;
+}
+
+#fornecedor table.dataTable tr:not(:first-Child) td{
+
+	border-bottom:1px solid gray;
+}
+
+#fornecedor button
+{
+	background-color: white;
+	width: 200px;
+	height: 50px;
+	color: #1f001f;
+	font-size: 16px;
+	font-weight: bold;
+	cursor: pointer;
+	bottom: 20px;
+	border: solid 1px;
+	border-radius: 5px;
+	transition: 0.2s;
+	outline: none;
+
+
+}
+
+#fornecedor button:hover {
+	background-color: #1f001f;
+	color: white;
+	border: 1px solid #1f001f;
+
+}
+
+#fornecedor table.dataControl
+{
+	position: relative;
+	margin-top: 5px;
+	bottom: 10px
+}
+
+#fornecedor table.dataSearch
+{
+	text-align: right;
+	height: 40px;
+}
+
+#fornecedor table.dataSearch tr td
+{
+	text-align: right;
+	width: 100%;
+	padding-bottom: 14px;
+}
+
+#fornecedor table.dataSearch tr td input
+{
+	height: 100%;
+	border: 1px solid #1f001f;
+	border-radius: 5px;
+	padding: 5px;
+	width: 300px;
+	color: #1f001f;
+
+}
+
+#fornecedor table.dataSearch tr td input:focus
+{
+	outline: none;
+}
+
+#fornecedor table.dataSearch tr td button
+{
+	text-align: right;
+	height: 100%;
+	padding: 10px;
+	width: min-content;
+}
+
+#fornecedor table.dataControl tr td
+{
+	text-align: center;
+	width: 100%;
+	padding-right: 38px;
+}

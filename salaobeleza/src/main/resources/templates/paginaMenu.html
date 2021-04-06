@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <!-- CSS only -->
+    <link rel="stylesheet" th:href="@{/css/menu.css}" type="text/css">
+    <!-- JavaScript Bundle with Popper -->
+</head>
+<body>
+
+<div id="menu">
+    <a th:href="@{/}">Início</a>
+    <a th:href="@{/estoque}">Estoque</a>
+    <a th:href="@{/fornecedor}">Fornecedores</a>
+    <a th:href="@{/cliente}">Clientes</a>
+    <a th:href="@{/login?logout}">Sair</a>
+</div>
+</body>
+</html>

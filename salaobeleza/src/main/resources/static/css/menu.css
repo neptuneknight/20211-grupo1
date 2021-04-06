@@ -1,0 +1,50 @@
+*
+{
+	font-family: 'arial';
+	overflow-x: hidden;
+}
+
+body
+{
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	background-color: #cdb4db;
+}
+
+#menu
+{
+	display: inline-block;
+	width: 100%;
+	height: 22px;
+	background-color: #9f71ba;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	margin: 0;
+	padding-left: 8px;
+	position: relative;
+}
+
+#menu a
+{
+	background-color: transparent;
+	color: white;
+	text-decoration: none;
+	display: inline;
+	padding: 15px;
+	margin: 0px;
+	transition: 0.2s;
+}
+
+#menu a:hover
+{
+	background-color: #1f001f;
+	transition: 500ms;
+}
+
+#menu a:last-child
+{
+    position: relative;
+    left: 76%;
+}
